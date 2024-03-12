@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "ID": "1",
+      "Desc": "0",
+      "MaxCount": "10000",
+      "IconPath": "Assets/Deploy/UI/Textures/Icon_ItemIcons(x2)/64/Icon_Gold.png"
+    },
+    {
+      "ID": "2",
+      "Desc": "0",
+      "MaxCount": "10000",
+      "IconPath": "Assets/Deploy/UI/Textures/Icon_ItemIcons(x2)/64/Icon_Gem03_Diamond_Blue.png"
+    },
+    {
+      "ID": "3",
+      "Desc": "0",
+      "MaxCount": "100",
+      "IconPath": "Assets/Deploy/UI/Textures/Icon_ItemIcons(x2)/64/Icon_Golden_Pass.png"
+    }
+  ]
+}

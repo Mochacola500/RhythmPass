@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3031429605869843350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510753584990850448}
+  - component: {fileID: 6359310037362824796}
+  m_Layer: 0
+  m_Name: GimmickMonsterPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1510753584990850448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031429605869843350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1438127174450753720}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6359310037362824796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3031429605869843350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40fec192bbe4b4f4a87eabdad2488dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _index: {x: 0, y: 0}
+  _worldObjectResource: {fileID: 238190204324325072}
+  _patternController: {fileID: 0}
+  _fullHP: 0
+  _hp: 0
+  _damage: 0
+  _beatBehaviour: 0
+  _jumpPower: 1
+  _isRotateMove: 0
+  _direction: 3
+  _attackable: 1
+  _projectilePrefab: {fileID: -844968704516987655, guid: 02ad06efb0158284e9dc28db1b6245f5,
+    type: 3}
+--- !u!1 &4630441202616008658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7956074436831501453}
+  m_Layer: 0
+  m_Name: Muzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7956074436831501453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4630441202616008658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.42, y: -0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1437784937557324844}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1439610838436701658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1510753584990850448}
+    m_Modifications:
+    - target: {fileID: 1830712763959034, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_Name
+      value: MonsterPlantPBRMaskTint
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95370461447590988, guid: 2fe47e16e39148048ad2c3f461f0cbf7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4d5d9db3f149ae8488478fdee0e4275b, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fe47e16e39148048ad2c3f461f0cbf7, type: 3}
+--- !u!137 &1305209068626987014 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 137235361602678236, guid: 2fe47e16e39148048ad2c3f461f0cbf7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1439610838436701658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1344417414472036758 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95370461447590988, guid: 2fe47e16e39148048ad2c3f461f0cbf7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1439610838436701658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1437784937557324844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4098594635289078, guid: 2fe47e16e39148048ad2c3f461f0cbf7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1439610838436701658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1438127174450753720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4441364228691298, guid: 2fe47e16e39148048ad2c3f461f0cbf7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1439610838436701658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1440034124515058464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1830712763959034, guid: 2fe47e16e39148048ad2c3f461f0cbf7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1439610838436701658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &238190204324325072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440034124515058464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df021c6847d2624099557411bf4cf23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1344417414472036758}
+  _renderers:
+  - {fileID: 1305209068626987014}
+  _projectileMuzzle: {fileID: 7956074436831501453}

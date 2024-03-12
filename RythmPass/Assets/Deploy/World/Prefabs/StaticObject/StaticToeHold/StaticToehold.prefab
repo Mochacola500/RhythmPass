@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8596985682955990283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5037832568072354257}
+  - component: {fileID: 3654879113715199712}
+  m_Layer: 0
+  m_Name: StaticToehold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5037832568072354257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8596985682955990283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3778663294733111834}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3654879113715199712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8596985682955990283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e8d6fcafd91a64eaefe92fefb727d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _index: {x: 0, y: 0}
+  _worldObjectResource: {fileID: 0}
+  _patternController: {fileID: 0}
+  _eventOnPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  _eventLeavPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1001 &7202853283817354933
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5037832568072354257}
+    m_Modifications:
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687562278341967381, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+        type: 3}
+      propertyPath: m_Name
+      value: block_stone1_1_debris_LOD_group
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fe5d452305c04871a52f0f0fe8816e1, type: 3}
+--- !u!4 &3778663294733111834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6306498363406656687, guid: 2fe5d452305c04871a52f0f0fe8816e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7202853283817354933}
+  m_PrefabAsset: {fileID: 0}

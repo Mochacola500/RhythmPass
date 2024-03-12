@@ -1,0 +1,15 @@
+{
+  "hlsl.preprocessorDefinitions": {
+  },
+  "hlsl.additionalIncludeDirectories": [
+    ".\\RythmPass\\Packages\\com.unity.render-pipelines.universal@12.1.8\\Shaders",
+    ".\\RythmPass\\Packages\\com.unity.render-pipelines.universal@12.1.8\\ShaderLibrary",
+	".\\RythmPass\\Library\\PackageCache\\com.unity.render-pipelines.core@12.1.8\\Shaders",
+	".\\RythmPass\\Library\\PackageCache\\com.unity.render-pipelines.core@12.1.8\\ShaderLibrary"
+  ],
+  "hlsl.virtualDirectoryMappings": {
+	  "Packages/" : ".\\RythmPass\\Packages",
+	  "/com.unity.render-pipelines.universal" :".\\RythmPass\\Packages\\com.unity.render-pipelines.universal@12.1.8",
+	  "/com.unity.render-pipelines.core" : ".\\RythmPass\\Library\\PackageCache\\com.unity.render-pipelines.core@12.1.8"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "rows": [
+    {
+      "ID": "1",
+      "Kor": "테스트",
+      "Eng": "Test"
+    },
+    {
+      "ID": "2",
+      "Kor": "모험의 시작",
+      "Eng": "Begin Adventure"
+    },
+    {
+      "ID": "3",
+      "Kor": "모험. . . . .",
+      "Eng": "Adventure . . . ."
+    },
+    {
+      "ID": "4",
+      "Kor": "정글 던전",
+      "Eng": "Jungle Dungeon"
+    },
+    {
+      "ID": "5",
+      "Kor": "정글 던전 . . . .",
+      "Eng": "Dungeon . . . . "
+    },
+    {
+      "ID": "6",
+      "Kor": "스테이지 클리어",
+      "Eng": "Stage Clear"
+    },
+    {
+      "ID": "7",
+      "Kor": "도전 횟수 <arg1=number>이하",
+      "Eng": "Try Succes In <arg1=number>"
+    },
+    {
+      "ID": "8",
+      "Kor": "스테이지 아이템 획득",
+      "Eng": "Get Stage Item"
+    },
+    {
+      "ID": "9",
+      "Kor": "해골 던전",
+      "Eng": "Skeleton Dungeon"
+    },
+    {
+      "ID": "10",
+      "Kor": "해골이 가득한 동굴 던전",
+      "Eng": "Cave with sekeleton"
+    },
+    {
+      "ID": "11",
+      "Kor": "입장 (<arg1=number>/<arg2=number>)",
+      "Eng": "Enter (<arg1=number>/<arg2=number>)"
+    },
+    {
+      "ID": "12",
+      "Kor": "<arg1=number>초 내로 성공",
+      "Eng": "Succeeded in <arg1=number>seconds"
+    },
+    {
+      "ID": "13",
+      "Kor": "총 이동 횟수 <arg1=number> 내로 성공",
+      "Eng": "Move count in <arg1=number>"
+    }
+  ]
+}

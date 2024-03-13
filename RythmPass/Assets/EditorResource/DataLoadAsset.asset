@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44fe7219df7de3547959219a41ddf598, type: 3}
+  m_Name: DataLoadAsset
+  m_EditorClassIdentifier: 
+  ExcelFolder: {fileID: 102900000, guid: c82c07af598e1d145bd0dd10fd3e5cdb, type: 3}
+  CodeFolder: {fileID: 102900000, guid: a97ac3181bad8a840a3659cc0dbc116d, type: 3}
+  JsonFolder: {fileID: 102900000, guid: d990d56067bbf0640a20a259ea3e487f, type: 3}

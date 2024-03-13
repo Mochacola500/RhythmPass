@@ -1,0 +1,13 @@
+{
+  "rows": [
+    {
+      "ID": "1",
+      "ScoreID1": "1",
+      "ScoreID2": "2",
+      "ScoreID3": "3",
+      "ScoreValue1": "0",
+      "ScoreValue2": "2",
+      "ScoreValue3": "1"
+    }
+  ]
+}
